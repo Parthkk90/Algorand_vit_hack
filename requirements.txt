@@ -1,0 +1,17 @@
+# Algorand Development
+algokit>=3.0.0
+algorand-python>=2.0.0
+algosdk>=2.6.0
+py-algorand-sdk>=2.6.0
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+
+# Development
+python-dotenv>=1.0.0
+black>=24.0.0
+ruff>=0.2.0
+
+# Build
+build>=1.0.0
