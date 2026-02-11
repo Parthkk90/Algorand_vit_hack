@@ -1,4 +1,4 @@
-# Cresca Campus 🎓
+# Cresca Campus 
 
 > **Decentralized Campus Finance Built on Algorand**  
 > Peer payments, smart splits, soulbound tickets, DAO treasuries, transparent fundraising, and fee-sponsored onboarding.  
@@ -11,7 +11,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -52,7 +52,7 @@
 
 ## Features
 
-### ⚡ 1. P2P Campus Payments (Core)
+###  1. P2P Campus Payments (Core)
 - **ALGO transfers** via simple QR scan
 - Wallet = Identity (no phone numbers, no sign-up forms)
 - **~$0.0003 per transaction** (0.001 ALGO fixed fee)
@@ -60,7 +60,7 @@
 
 **Algorand Primitive:** `PaymentTxn` + ASA Transfer
 
-### 🔀 2. Smart Expense Splitting (Core)
+###  2. Smart Expense Splitting (Core)
 - Create split contracts with member list
 - On-chain state tracks who paid what
 - "Settle All" via **Atomic Transfer** — up to 16 members settle in one block
@@ -68,7 +68,7 @@
 
 **Algorand Primitive:** AVM App + Atomic Group (up to 16 txns)
 
-### 🏦 3. Club DAO Treasury (Power)
+###  3. Club DAO Treasury (Power)
 - Multi-sig smart contract wallet (M-of-N approval)
 - Spending proposals visible to all members on-chain
 - Funds move only after on-chain approval
@@ -76,7 +76,7 @@
 
 **Algorand Primitive:** AVM App + LogicSig
 
-### 🎟️ 4. Soulbound Event Tickets (WOW Factor)
+###  4. Soulbound Event Tickets (WOW Factor)
 - Each ticket = **ARC-71 Non-Transferable ASA**
 - Freeze address prevents secondary sale at protocol level
 - QR scan → on-chain wallet verification at event gate
@@ -84,7 +84,7 @@
 
 **Algorand Primitive:** ARC-71 NTA + ARC-69 On-chain Metadata
 
-### 📣 5. Transparent Campaign Fundraising (Power)
+###  5. Transparent Campaign Fundraising (Power)
 - Smart contract escrow — nobody holds the money
 - Milestone-based release: funds unlock only when goals are met
 - All donations visible on-chain with donor address + amount
@@ -93,7 +93,7 @@
 
 **Algorand Primitive:** AVM App + Escrow Pattern + Inner Transactions
 
-### 🎁 Bonus: Gasless Onboarding
+###  Bonus: Gasless Onboarding
 - **Atomic Fee Pooling**: App sponsors first transactions
 - **Liquid Auth** (Pera Wallet): Passkey login, no seed phrase
 - New students transact on day one with zero crypto knowledge
