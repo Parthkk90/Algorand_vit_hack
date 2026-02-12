@@ -1,0 +1,11 @@
+[project]
+type = "contract"
+name = "crescacam"
+
+[project.run]
+build = { commands = ["python -m pip install -r requirements.txt", "python -m build"] }
+deploy = { commands = ["python scripts/deploy.py"] }
+test = { commands = ["pytest tests/ -v"] }
+
+[algokit]
+min_version = "3.0.0"
