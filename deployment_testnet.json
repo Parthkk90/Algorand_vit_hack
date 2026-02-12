@@ -1,0 +1,18 @@
+{
+  "network": "testnet",
+  "deployer": "ZQ7ZL5WFQBVVQ5L5HBO5Q3AE4TC7DQVIEA6LDWCI7UYZLCOU3DMUF2UNZA",
+  "contracts": {
+    "dao_treasury": {
+      "app_id": 755399773,
+      "tx_id": "7P6EZF2QPYKVVZ47GA5Q5RRLQEN3VCCXN4K2V3DV2WTNQXUPRANA"
+    },
+    "soulbound_ticket": {
+      "app_id": 755399774,
+      "tx_id": "YWEVIBZERYYKJZGNTHXNSP632CGSJNVLN7K4D4SMW4RT3X4XCCUA"
+    },
+    "fundraising": {
+      "app_id": 755399775,
+      "tx_id": "G6MYZKNNLPWKTE7Q233UQKRDO2F2UKCHFANG226EDWQSVXIHMPAQ"
+    }
+  }
+}
